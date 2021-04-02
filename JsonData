@@ -1,0 +1,20 @@
+#Exemple JSON data pour une requête POST vers l'api /fiche
+{
+    "libelle": "fiche 1",
+    "dateButoir": "05/04/2021",
+    "tags": "rien",
+    "lieu": "chez moi",
+    "url": "devine/ou/",
+    "description": "ceci est un test de creation d'une fiche via un appel REST post",
+    "section": {
+        "fiches": [],
+        "tableau": {
+            "sections": [],
+            "name": "mon premier tableau kanban"
+        },
+        "name": "section : en cours"
+    }
+}
+
+#Exemple URL pour une requête GET sur postman pour afficher la fiche 2
+http://localhost:8080/fiche/2
