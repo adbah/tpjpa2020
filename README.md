@@ -38,7 +38,7 @@
     - un problème avec le type de l’attibut dateButoir dans l’entité Fiche en utilisant Date comme type mais finalement nous avons mis un String à la place .
 # Conclusion : 
 -Nous sommes fière de ce qu’on a pu réaliser dans ces deux tp , même si nous avons galérer car c’était la première fois pour nous de travailler avec ces technologies mais nous   avons qu’à même eu l’occasion de les découvrir et à chercher les solution par nous même et résoudre certaines erreurs  , pour nous c’était le plus important .
-# Auteur : 
+# Auteurs : 
 BAH Adama Sira, 
 KONE Rahima et
 AHOUA Benedicte
