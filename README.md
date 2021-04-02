@@ -15,10 +15,10 @@ AHOUA Benedicte
  - Section : représente l’ensemble des  sections d’un utilisateur , contenu dans  un tableau.
  - Fiche :   contient l’ensemble informations  d’une fiche  (Carte) .
  
-# Diagramme de classes UML: 
-<img src="C:\Users\badam\Desktop\SIR\image\class.diagram.png" width="800px" height="auto">
-      
+# Diagramme de classes UML:
+<img src="C:\Users\badam\Desktop\SIR\image\class.diagram.pn" alt="My cool logo"/>
 
+      
 # Réalisation: 
 - A partir de ces classes  nous avons créé également quatre (4) Entités JPA
 - en rajoutant les accesseurs (getter et setter pour chaque attribut ainsi que les constructeurs) , dans le package src/main/java/jpa .
