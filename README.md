@@ -1,1 +1,1 @@
-# Template de projet pour le TP JPA 2021 UniR
+# Projet JPA 2021 Université Rennes1
