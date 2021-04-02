@@ -1,7 +1,7 @@
 # Projet JPA 2021 Université Rennes1
  Réalisé par : BAH Adama Sira, KONE Rahima et AHOUA Benedicte
  
- #Introduction:
+ # Introduction:
  
 - Les Travaux pratiques sur JPA et JAXRS nous ont permis de nous familiariser avec les outils et d’appréhender les problématiques liés à ces deux technologies.
 - Pour une bonne compréhension des concepts , nous avons fait un modèle représentant toutes les entités et leurs attributs dans un diagramme pour décrire les responsabilités, le   - comportement et le type de l’ensemble de nos objets
