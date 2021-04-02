@@ -16,8 +16,8 @@ AHOUA Benedicte
  - Fiche :   contient l’ensemble informations  d’une fiche  (Carte) .
  
 # Diagramme de classes UML: 
-
-       C:\Users\badam\Desktop\SIR\image\class.diagram.png
+<img src="C:\Users\badam\Desktop\SIR\image\class.diagram.png" width="800px" height="auto">
+      
 
 # Réalisation: 
 - A partir de ces classes  nous avons créé également quatre (4) Entités JPA
