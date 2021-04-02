@@ -10,3 +10,6 @@
 - Tableau: représente le tableau d’un utilisateur .
 - Section : représente l’ensemble des sections d’un utilisateur , contenu dans un tableau.
 - Fiche : contient l’ensemble informations d’une fiche (Carte) .
+
+# Diagramme de classes UML:
+
