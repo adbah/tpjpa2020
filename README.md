@@ -17,6 +17,7 @@ AHOUA Benedicte
  
 # Diagramme de classes UML: 
 
+       C:\Users\badam\Desktop\SIR\image\class.diagram.png
 
 # Réalisation: 
 - A partir de ces classes  nous avons créé également quatre (4) Entités JPA
