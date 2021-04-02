@@ -1,0 +1,6 @@
+# User-specific stuff
+.idea/
+.project
+.settings
+.classpath
+target

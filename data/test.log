@@ -1,0 +1,36 @@
+/*C3*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C4*/SET SCHEMA PUBLIC
+create table Fiche (idFiche bigint not null, dateButoir varchar(255), description varchar(255), libelle varchar(255), lieu varchar(255), tags varchar(255), url varchar(255), section_idSection bigint, primary key (idFiche))
+create table Section (idSection bigint not null, name varchar(255), tableau_idTableau bigint, primary key (idSection))
+create table Tableau (idTableau bigint not null, name varchar(255), user_idUser bigint, primary key (idTableau))
+create table User (idUser bigint not null, age integer not null, nom varchar(255), prenom varchar(255), primary key (idUser))
+create sequence hibernate_sequence start with 1 increment by 1
+alter table Fiche add constraint FKi4eiurt1ecfdlsaojblf5d9fv foreign key (section_idSection) references Section
+alter table Section add constraint FKgnvjc68f5bqqr1q9n3jpsko1r foreign key (tableau_idTableau) references Tableau
+alter table Tableau add constraint FK22jwbpdvfxemiupfyj01ymmy6 foreign key (user_idUser) references User
+/*C5*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C4*/DISCONNECT
+/*C8*/SET SCHEMA PUBLIC
+ALTER SEQUENCE PUBLIC.HIBERNATE_SEQUENCE RESTART WITH 2
+/*C6*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C8*/DISCONNECT
+/*C7*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C9*/SET SCHEMA PUBLIC
+INSERT INTO TABLEAU VALUES(4,'mon premier tableau kanban',NULL)
+INSERT INTO SECTION VALUES(3,'section : en cours',4)
+INSERT INTO FICHE VALUES(2,'05/04/2021','ceci est un test de creation d''une fiche via un appel REST post','fiche 1','chez moi','rien','devine/ou/',3)
+ALTER SEQUENCE PUBLIC.HIBERNATE_SEQUENCE RESTART WITH 5
+COMMIT
+DISCONNECT
+/*C11*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C12*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C13*/SET SCHEMA PUBLIC
+DISCONNECT
+/*C10*/SET SCHEMA PUBLIC
+DISCONNECT

@@ -18,14 +18,13 @@ package fr.istic.taa.jaxrs;
 
 import java.util.HashSet;
 import java.util.Set;
-
 import javax.ws.rs.core.Application;
-
+import fr.istic.taa.jaxrs.rest.FicheResource;
 import fr.istic.taa.jaxrs.rest.PetResource;
+import fr.istic.taa.jaxrs.rest.SwaggerResource;
 import io.swagger.v3.jaxrs2.integration.resources.OpenApiResource;
 
 public class TestApplication extends Application {
-
 
     @Override
     public Set<Class<?>> getClasses() {
@@ -33,10 +32,14 @@ public class TestApplication extends Application {
         final Set<Class<?>> clazzes = new HashSet<Class<?>>();
 
         clazzes.add(PetResource.class);
+
+        //ajout de OpenAPI ressource
         clazzes.add(OpenApiResource.class);
-        
+        //ajout swagger ressource
+        clazzes.add(SwaggerResource.class);
+        //ajout fiche ressource
+        clazzes.add(FicheResource.class);
 
         return clazzes;
     }
-
 }
