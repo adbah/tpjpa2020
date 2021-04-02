@@ -14,6 +14,9 @@ AHOUA Benedicte
  - Tableau:  représente le tableau d’un utilisateur .
  - Section : représente l’ensemble des  sections d’un utilisateur , contenu dans  un tableau.
  - Fiche :   contient l’ensemble informations  d’une fiche  (Carte) .
+ 
+# Diagramme de classes UML: 
+
 
 # Réalisation: 
 - A partir de ces classes  nous avons créé également quatre (4) Entités JPA
