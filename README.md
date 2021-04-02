@@ -12,7 +12,7 @@
 - Fiche : contient l’ensemble informations d’une fiche (Carte) .
 
 # Diagramme de classes UML:
-![](image/)
+  ![](image/class.diagram.png)
 
 # Réalisation:
 - A partir de ces classes nous avons créé également quatre (4) Entités JPA
