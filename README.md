@@ -16,7 +16,7 @@ AHOUA Benedicte
  - Fiche :   contient l’ensemble informations  d’une fiche  (Carte) .
  
 # Diagramme de classes UML:
-<img src="C:\Users\badam\Desktop\SIR\image\class.diagram.pn" width="1000" height = "800" alt="My cool logo"/>
+<img src="C:\Users\badam\Desktop\SIR\image\class.diagram.pn" width="250" alt="My cool logo"/>
 
       
 # Réalisation: 
