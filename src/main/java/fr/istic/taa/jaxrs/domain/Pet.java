@@ -13,6 +13,7 @@ import io.swagger.v3.oas.models.tags.Tag;
 public class Pet {
   private long id;
   private String name;
+  private String tel;
   private List<Tag> tags = new ArrayList<Tag>();
 
   @XmlElement(name = "id")
